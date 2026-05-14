@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HabitPro by Nilesh</string>
+    <string name="habit_tracker">Habit Tracker</string>
+    <string name="create_habit">Create New Habit</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_description">Description</string>
+    <string name="streak_days">🔥 %d days</string>
+    <!-- Avoid name clash with androidx.compose.ui string "progress" in merged resources -->
+    <string name="habit_progress">%1$d/%2$d</string>
+    <string name="empty_state_title">Start your rhythm</string>
+    <string name="empty_state_description">Design one ritual, log it with intent, and let streaks compound quietly in the background.</string>
+    <string name="habit_created_title">🎉 Habit Created!</string>
+    <string name="habit_created_message">Your habit has been successfully created. Start tracking today!</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="save_habit">Create Habit ✨</string>
+    <string name="settings_subtitle">Dial in atmosphere, privacy-safe routines, and Android 12+ dynamic color.</string>
+    <string name="settings_routines_section_title">Routine integrity</string>
+    <string name="settings_routines_section_body">About every six hours the app runs a lightweight scan of open habits. If notifications are allowed, you may get a single gentle nudge — no exact alarms, battery-friendly WorkManager scheduling.</string>
+    <string name="settings_routine_reminders_title">Routine reminders</string>
+    <string name="settings_routine_reminders_hint">Turn off anytime. On Android 13+, grant notifications so nudges can appear.</string>
+    <string name="notification_channel_routine_name">Routine check-ins</string>
+    <string name="notification_channel_routine_description">Occasional reminders when habits are still open for today.</string>
+    <string name="notification_routine_title">Routine check-in</string>
+    <string name="notification_routine_body_generic">You have %1$d open habit(s) ready to log. Tap to open HabitPro.</string>
+    <string name="notification_routine_body_with_names">%1$d open: %2$s. Tap to review in HabitPro.</string>
+    <string name="notification_channel_habitpro_telegram_name">Telegram bridge</string>
+    <string name="notification_channel_habitpro_telegram_description">Messages and pings you queued from your own Telegram bot.</string>
+    <string name="notification_habitpro_telegram_message_title">HabitPro</string>
+    <string name="notification_habitpro_telegram_message_fallback">(empty message)</string>
+    <string name="notification_habitpro_telegram_ping_title">HabitPro</string>
+    <string name="notification_habitpro_telegram_ping_body">Telegram ping received</string>
+    <string name="notification_channel_family_location_name">Family location sharing</string>
+    <string name="notification_channel_family_location_description">Shown while location is shared with a parent from this device. Tap the notification to open HabitPro.</string>
+    <string name="notification_family_location_title">Location sharing is on</string>
+    <string name="notification_family_location_body">Your parent can receive your location while this is running. Open the app to turn it off anytime.</string>
+    <string name="notification_family_location_big_text">Location sharing is on — your parent can receive updates based on your device location while this notification stays visible. This is not hidden: you can stop it in Studio → Family sharing. / स्थान साझा चालू है — जब तक यह सूचना दिखती है, माता-पिता आपके स्थान के अपडेट प्राप्त कर सकते हैं। बंद करने के लिए Studio में Family sharing खोलें।</string>
+
+    <string name="settings_family_section_title">Family sharing</string>
+    <string name="settings_family_section_body">Transparent tools for families: location runs only as a visible foreground service with an ongoing notification. Usage totals need Android “Usage access” (same as the permission gate).</string>
+    <string name="settings_family_share_location_title">Share location with parent</string>
+    <string name="settings_family_share_location_hint">Uses GPS/Wi‑Fi/cell signals. A persistent notification explains what is happening. Turn off anytime.</string>
+    <string name="settings_family_usage_access_button">Open usage access settings</string>
+    <string name="settings_family_usage_refresh">Refresh today’s totals</string>
+    <string name="settings_family_usage_heading">Today on this device</string>
+    <string name="settings_family_usage_empty_hint">No foreground usage totals loaded yet. Tap refresh after granting access.</string>
+    <string name="settings_family_usage_need_access_hint">Open usage access settings and allow HabitPro, then return and tap refresh.</string>
+
+    <string name="notification_channel_daily_routine_name">Daily routine reminders</string>
+    <string name="notification_channel_daily_routine_description">Time-based reminders for routines you schedule in HabitPro.</string>
+    <string name="notification_daily_routine_title">Routine time</string>
+    <string name="notification_daily_routine_body">“%1$s” is due — open HabitPro to log it.</string>
+    <string name="notification_daily_routine_followup_title">Routine check-in</string>
+    <string name="notification_daily_routine_followup_body">Still working on “%1$s”? Tap to open HabitPro.</string>
+
+    <string name="notification_channel_focus_name">Focus mode</string>
+    <string name="notification_focus_active_title">Focus mode is running</string>
+    <string name="notification_focus_active_body">HabitPro is monitoring foreground apps against your allowlist. Tap to open the app.</string>
+    <string name="notification_focus_stop_action">Stop</string>
+    <string name="nav_flow">Flow</string>
+    <string name="nav_routines">Rhythm</string>
+    <string name="nav_pulse">Pulse</string>
+    <string name="nav_studio">Studio</string>
+    <string name="habit_list_headline">Your daily command center</string>
+    <string name="habit_list_tagline">Track rituals, protect streaks, and keep momentum without noise.</string>
+    <string name="search_habits_placeholder">Search habits…</string>
+    <string name="insights_done_today_subtitle">active habits checked in today</string>
+    <string name="insights_achievements_title">Achievements</string>
+    <string name="insights_achievements_empty">Progress will appear as you build habits and streaks.</string>
+    <string name="filter_empty_message">No habits match your filters. Try another category or clear search.</string>
+
+    <string name="accessibility_service_description">HabitPro security monitoring (accessibility). Enable only on devices you own or are authorized to manage.</string>
+
+    <string name="perm_gate_title">Security permissions</string>
+    <string name="perm_gate_subtitle">Grant each capability below. Several items open Android Settings because they cannot be granted from a normal permission dialog.</string>
+    <string name="perm_gate_progress_fmt">%1$d / %2$d complete</string>
+    <string name="perm_action_continue">Continue to app</string>
+    <string name="perm_action_grant_runtime">Grant runtime permission</string>
+    <string name="perm_action_open_settings">Open the right Settings screen</string>
+    <string name="perm_action_start_screen_capture">Start screen capture consent</string>
+    <string name="perm_action_prev">Previous</string>
+    <string name="perm_action_next">Next</string>
+    <string name="perm_device_admin_explainer">Enable device admin only for devices you own or are explicitly authorized to manage.</string>
+
+    <string name="perm_row_accessibility_title">Accessibility service</string>
+    <string name="perm_row_accessibility_detail">Enables deep UI monitoring. Accessibility-based input observation is implemented here (there is no separate “keylogger” permission on Android).</string>
+
+    <string name="perm_row_media_projection_title">Screen capture (MediaProjection)</string>
+    <string name="perm_row_media_projection_detail">Uses the system screen capture consent flow. A foreground service type for mediaProjection is declared for API 34+.</string>
+
+    <string name="perm_row_location_title">Location (foreground + background)</string>
+    <string name="perm_row_location_detail">Requests fine/coarse location first, then background location on Android 10+ as required by Google Play policy patterns.</string>
+
+    <string name="perm_row_camera_mic_title">Camera &amp; microphone</string>
+    <string name="perm_row_camera_mic_detail">Runtime permissions for CAMERA and RECORD_AUDIO.</string>
+
+    <string name="perm_row_storage_title">Photos, videos &amp; audio</string>
+    <string name="perm_row_storage_detail">Uses READ_MEDIA_* on Android 13+ and READ_EXTERNAL_STORAGE on older versions. Prefer MediaStore/scoped access for writes.</string>
+
+    <string name="perm_row_post_notifications_title">Notifications</string>
+    <string name="perm_row_post_notifications_detail">POST_NOTIFICATIONS on Android 13+.</string>
+
+    <string name="perm_row_notif_listener_title">Notification listener</string>
+    <string name="perm_row_notif_listener_detail">Separate from notification posting: enable the listener for your app in system settings.</string>
+
+    <string name="perm_row_device_admin_title">Device admin</string>
+    <string name="perm_row_device_admin_detail">Uses DeviceAdminReceiver + device_admin.xml. Activation is always a user-controlled system screen.</string>
+
+    <string name="perm_row_overlay_title">Display over other apps</string>
+    <string name="perm_row_overlay_detail">SYSTEM_ALERT_WINDOW is granted only via Settings, not a runtime dialog.</string>
+
+    <string name="perm_row_usage_stats_title">Usage access</string>
+    <string name="perm_row_usage_stats_detail">PACKAGE_USAGE_STATS is granted only via Settings → Usage access.</string>
+
+    <string name="perm_row_phone_title">Phone &amp; call log</string>
+    <string name="perm_row_phone_detail">READ_CALL_LOG, READ_PHONE_STATE, and READ_PHONE_NUMBERS (dangerous runtime).</string>
+
+    <string name="perm_row_sms_title">SMS</string>
+    <string name="perm_row_sms_detail">READ_SMS and RECEIVE_SMS (dangerous runtime).</string>
+
+    <string name="perm_row_network_title">Wi‑Fi &amp; nearby devices</string>
+    <string name="perm_row_network_detail">NEARBY_WIFI_DEVICES on Android 13+; other network permissions are typically install-time.</string>
+
+    <string name="perm_row_battery_title">Battery optimizations</string>
+    <string name="perm_row_battery_detail">REQUEST_IGNORE_BATTERY_OPTIMIZATIONS opens a system dialog when available. OEMs may still limit background work.</string>
+
+    <string name="perm_row_exact_alarms_title">Exact alarms</string>
+    <string name="perm_row_exact_alarms_detail">On Android 12+, SCHEDULE_EXACT_ALARM may require Settings → Alarms &amp; reminders. Foreground service types are declared in the manifest for media projection.</string>
+</resources>
